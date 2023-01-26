@@ -1,5 +1,5 @@
 variable "base_bucket_name" {
-  default = "datalake-gabriel-igti-edc-tf"
+  default = "datalake-gabriel-igti-edc-tf-test-git-01"
 }
 
 variable "ambiente" {
