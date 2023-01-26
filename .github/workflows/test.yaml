@@ -31,7 +31,7 @@ jobs:
       env:
         COMMAND_IAC: terraform
       run: |
-       cd infrastruture
+       cd infra_terraform
        $COMMAND_IAC init
        $COMMAND_IAC validade
        $COMMAND_IAC plan
